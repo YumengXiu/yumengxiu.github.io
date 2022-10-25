@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -18,8 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a second year Master student at Department of Mechanical Engineering, CMU. I received my B.E. degree at Mechanical Engineering Program at Beijing Institute of Technology in 2020.
+The goal of my research is to develop real intelligent robots, by designing rigorous and correct algorithms to enable safe and Trustworth Autonomy and apply them on real applications.
+My current research interests:
+1. Robotics, perception-based planning and trajectory prediction
+1. Trust AI Autonomy with reliable Control
+1. Optimization.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My up-to-date Curriculum Vitae: [CV](https://yumengxiu.github.io/assets/pdf/Xiu Yumeng-CV.pdf).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Besides research, I enjoy music arranging, literature novels and philosophy. I'm a fan of Albert Camus and Victor Hugo.
