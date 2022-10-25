@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am currently a second year Master student at Department of Mechanical Engineering, CMU. I received my B.E. degree at Mechanical Engineering Program at Beijing Institute of Technology in 2020.
-The goal of my research is to develop real intelligent robots, by designing rigorous and correct algorithms to enable safe and Trustworth Autonomy and apply them on real applications.
+The goal of my research is to develop real intelligent robots, by designing rigorous and correct algorithms to enable safety and Trustworth Autonomy and apply them on real applications.
 My current research interests:
 1. Robotics, perception-based planning and trajectory prediction
 1. Trust AI Autonomy with reliable Control
