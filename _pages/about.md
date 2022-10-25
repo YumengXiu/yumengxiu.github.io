@@ -25,6 +25,6 @@ My current research interests:
 1. Trust AI Autonomy with reliable Control
 1. Optimization.
 
-My up-to-date Curriculum Vitae: [CV](https://yumengxiu.github.io/assets/pdf/Xiu Yumeng-CV.pdf).
+My up-to-date Curriculum Vitae:.
 
 Besides research, I enjoy music arranging, literature novels and philosophy. I'm a fan of Albert Camus and Victor Hugo.
