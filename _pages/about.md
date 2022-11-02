@@ -22,9 +22,9 @@ I am currently a second year Master student at Department of Mechanical Engineer
 
 I am broadly interested in robotics, learning to Control and optimization, particularly, my recent researches focus on following directions:
 
-- Perception and Robotics: Safety exploration and navigation has been one of the most fundamental components of robot autonomy, therefore an accurate perception system and safe trajectory planning/prediction algorithms become essential to for safe navigation in complex environments, my goal is to develop rigorous and correct algorithms based on robot perception, control and optimization methods, to enable safe, autonomous actions and decision-making in robotics , and apply them on real applications.
+- Perception and robotics: Safe exploration and navigation is one of the most fundamental components of robot autonomy. Therefore, an accurate perception system and safe trajectory planning/prediction algorithms become necessary for safe navigation in complex environments. My goal is to develop rigorous algorithms based on robot perception, control and optimization methods, to enable safe and autonomous actions and decision-making in the field of robotics and apply them on real applications.
 
-- Learning to control: As control theory provides useful concepts and tools for machine learning, conversely machine learning can be used to solve large control problems. I believe the combination of these two could help develop trustworthy algorithms in stablilizing large-scale systems in practical, including powers systems, robot teams,etc.
+- Learning to Control: Since control theory provides useful concepts and tools for machine learning, machine learning can be used the other way around to solve large control problems.I believe that combining these two could help develop reliable algorithms for stabilizing large-scale systems in practice, including power systems, robot teams, etc.
 
 My up-to-date Curriculum: [CV](https://yumengxiu.github.io/assets/pdf/Xiu%20Yumeng-CV.pdf)
 
