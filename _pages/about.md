@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a second year Master student at Department of Mechanical Engineering, CMU. I received my B.E. degree at Mechanical Engineering Program at Beijing Institute of Technology in 2020.
+I am currently a second year Master student at Department of Mechanical Engineering, CMU. 
 
 I am broadly interested in robotics, learning to Control and optimization, particularly, my recent researches focus on following directions:
 
