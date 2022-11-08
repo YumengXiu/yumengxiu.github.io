@@ -35,6 +35,6 @@ René Descartes [Discours de la methode](https://en.wikipedia.org/wiki/Discourse
 
 René Descartes [Mechanism](https://en.wikipedia.org/wiki/Mechanism_(philosophy))
 
-Victor Hugo [Les Misérables](https://www.lesmis.com/)
+Victor Hugo [Les Misérables](https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(musical))
 
 
