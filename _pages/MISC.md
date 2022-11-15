@@ -21,7 +21,7 @@ nav_order: 4
     [Probabilistic Robotics](https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf)
     
 
-I'm also Philosophy and musical Junkie 
+I'm also a Philosophy and Musical Junkie 
 
 Albert Camus [L'Étranger](https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel)) | [La Peste](https://en.wikipedia.org/wiki/The_Plague_(novel)) | [La Chute](https://en.wikipedia.org/wiki/The_Fall_(Camus_novel)) | [Le Mythe de Sisyphe](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus)
 
