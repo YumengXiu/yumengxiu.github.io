@@ -6,7 +6,7 @@ img: assets/img/planning.jpg
 importance: 1
 category: work
 ---
-Navigating dynamic environments requires the robot to generate collision-free trajectories and actively avoid moving obstacles. Most previous works designed path planning algorithms based on one single map representation, such as the geometric, occupancy, or ESDF map. Although they have shown success in static environments, due to the limitation of map representation, those methods cannot reliably handle static and dynamic obstacles simultaneously. To address the problem, We proposes a gradient-based B-spline trajectory optimization algorithm utilizing the robot’s onboard vision. The main contributions of this work are:
+Navigating dynamic environments requires the robot to generate collision-free trajectories and actively avoid moving obstacles. Most previous works designed path planning algorithms based on one single map representation, such as the geometric, occupancy, or ESDF map. Although they have shown success in static environments, due to the limitation of map representation, those methods cannot reliably handle static and dynamic obstacles simultaneously. To address the problem, We proposes a gradient-based B-spline trajectory optimization algorithm utilizing the robot’s onboard vision. See the [paper](https://arxiv.org/pdf/2209.07003.pdf) if you are interested. The main contributions of this work are:
 
 • <strong>Vision-aided 3D Dynamic Map:</strong> This algorithm utilizes the depth image with the occupancy voxel map to track 3D dynamic obstacles and adopts this 3D dynamic map to perform the trajectory optimization.
 
@@ -27,7 +27,7 @@ Navigating dynamic environments requires the robot to generate collision-free tr
     </div>
 </div>
 
-To evaluate the proposed method’s performance, we conduct simulation experiments and physical flight tests in dynamic environments. See the [paper](https://arxiv.org/pdf/2209.07003.pdf) if you are interested.
+To evaluate the proposed method’s performance, we conduct simulation experiments and physical flight tests in dynamic environments. 
 
 <div align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Elql8FrDtUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
