@@ -17,7 +17,7 @@ apply the Kalman filter and our continuity filter to track and identify dynamic 
 • <strong>Environment-aware trajectory prediction:</strong> The proposed Markov chain-based dynamic obstacle trajectory prediction method considers the interaction between dynamic obstacles and the static environment based on
 the trajectory probability distribution.
 
-See the related Paper (https://arxiv.org/pdf/2209.08258.pdf) if you are interested.
+See the related [Paper] (https://arxiv.org/pdf/2209.08258.pdf) if you are interested.
 
 <div align="center">
 <div class="row">
