@@ -1,80 +1,52 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Perception and Obstacle Avoidance
+description: A real-time dynamic obstacle tracking and mapping system for UAV navigation and collision avoidance
+img: assets/img/vision.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+While plenty of sophisticated learning-based dynamic obstacle detection algorithms exist in autonomous driving, the quadcopter’s limited computation resources cannot achieve real-time performance using those approaches. We propose a real-time dynamic obstacle tracking and mapping system for quadcopter obstacle avoidance using an RGB-D camera. The main contributions are as follow:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+• <strong>Region proposal detector with map refinement:</strong> We apply a lightweight depth image detector to obtain obstacle region proposals and uses the static map to refine the obstacles’ bounding boxes.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+• <strong>Dynamic obstacle identification and tracking:</strong> We
+apply the Kalman filter and our continuity filter to track and identify dynamic obstacles. The dynamic-region cleaning approach is then applied to clean the remained trails of dynamic obstacles in the static map.
+
+• <strong>Environment-aware trajectory prediction:</strong> The proposed Markov chain-based dynamic obstacle trajectory prediction method considers the interaction between dynamic obstacles and the static environment based on
+the trajectory probability distribution.
+
+Paper [Link](https://arxiv.org/pdf/2209.08258.pdf) is here.
+
+<div align="center">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Dynamic_Modules.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+The system contains three dynamic modules
+with one static occupancy map module. It takes the depth images with the
+robot poses as the inputs and outputs cleaned static maps and dynamic
+obstacle states with their predicted trajectories.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/EKF.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Visual.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Left is the illustration of the trajectory prediction. At the time t − 1, all five paths in the path library are safe, so path 3 has the highest probability. However, at time t, the previously safe paths 2,3 in the path library are not safe anymore. So, the final prediction is path 4. Right, visualization of obstacle tracking results in simulation.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+The simulation and physical experiments show that our methods can successfully track and represent obstacles in dynamic environments in real-time and safely avoid obstacles.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Elql8FrDtUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
