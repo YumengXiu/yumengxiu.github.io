@@ -27,7 +27,7 @@ For smart-grid simulation, we utilized Pandapower tool for modelling and of mult
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/descent_violation.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/descent violation.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/lyapunov_values.png" title="example image" class="img-fluid rounded z-depth-1" %}
