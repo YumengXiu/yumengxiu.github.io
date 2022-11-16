@@ -10,7 +10,7 @@ category: work
 
 We Developed methods for stabilizing large scale power systems based on Input-to-State Stability (ISS) Lyapunov-based neural certificate, by treating a large system as an interconnection of smaller subsystems. Each ISS Lyapunov function of subsystem could be collected to prove the global stability of power system.
 
-For smart-grid simulation, we utilized Pandapower tool for modelling and of multiple power system cases. The Neural controllers and Lyapunov functions show great performance in voltage convergence and stability of power systems.
+For smart-grid simulation, we utilized Pandapower tool for modelling of multiple power system cases. The Neural controllers and Lyapunov functions show great performance in voltage convergence and stability of power systems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
