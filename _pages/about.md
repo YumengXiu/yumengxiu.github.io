@@ -11,13 +11,13 @@ redirect_from:
 > <font size=3>Think geometrically, prove algebraically.  ——John Tate </font>
 ---
 
-I am a Ph.D. student at Department of Mechanical Engineering, CMU. I am broadly interested in robotics, learning to control and optimization, my research goal is to develop real autonomous intelligent robots. Particularly, my recent researches focus on following directions:
+Hi, I am a Research Assistant at the Department of Mechanical Engineering at CMU. I also completed my master's degree in MechE at CMU. I am broadly interested in robotics, learning to control and optimization, my research goal is to develop real autonomous intelligent robots. Particularly, my recent researches focus on following directions:
 
 - <strong>Safe Navigation and robotics</strong>: Safe exploration and navigation is one of the most fundamental components of robot autonomy. Therefore, an accurate perception system and safe trajectory planning/prediction algorithms become necessary for safe navigation in complex environments. My goal is to develop rigorous algorithms to enable safe and autonomous actions in the field of robotics and apply them on real-world applications. Toward this goal, I've worked on research projects of [Vision Aided Path Planning](https://yumengxiu.github.io/portfolio/portfolio-1/), [Perception and Obstacle Avoidance](https://yumengxiu.github.io/portfolio/portfolio-2/), and [Multi-robot Social Navigation](https://yumengxiu.github.io/portfolio/portfolio-4/) to enrich my experince.
 
 - <strong>Learning to control</strong>: While control theory provides useful concepts and tools for machine learning, machine learning can be used the other way around to solve large control problems.I believe that combining these two could help develop reliable algorithms for stabilizing large-scale systems in practice, including power systems, robot teams, etc. Toward this goal, I've been working on the project of [Learning-based Control on Large Power System](https://yumengxiu.github.io/portfolio/portfolio-3/)
 
-Previously in my Master study, I worked on multi-robot social navigation with Prof. [Jiachen Li](https://jiachenli94.github.io/), developing learning-based control algorithms with [Prof. Guannan Qu](https://www.guannanqu.com/), developing perceptio and planning algorithms for aerial vehicles with Prof. Kenji Shimada.
+Previously in my Master study, I worked on developing learning-based control algorithms with [Prof. Guannan Qu](https://www.guannanqu.com/), developing perceptio and planning algorithms for aerial vehicles with Prof. Kenji Shimada.
 
 My up-to-date Curriculum: [CV](../files/YumengXiu_CV.pdf)
 
